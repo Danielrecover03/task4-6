@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  text-decoration: none;
+  font-size: 15px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*NAV*/
+.navbar {
+  top: 0;
+  display: flex;
+  width: 100%;
+  height: 60px;
+  background-color: rgb(253, 250, 250);
+  position: fixed;
+}
+.nav-logo {
+  margin: 10px 20px;
+}
+.item-link {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+  margin-left: 30px;
+  width: 80%;
+}
+.item-link a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+}
+.item-link li a.active {
+  color: #0b0b0b;
+}
+.my-contact {
+  display: flex;
+  align-items: center;
+}
+.btn-contact-nav {
+  background-color: #000000;
+  color: whitesmoke;
+  border: none;
+  border-radius: 15px;
+  font-weight: bold;
+  font-size: 13px;
+  padding: 9px 18px;
+}
+
+/* Blog Form */
+
+.form-container h1 {
+  font-size: 30px;
+}
+
+.blog-form {
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.blog-form .form-container {
+  width: 500px;
+}
+
+.blog-form .form-container h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.blog-form form label {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.blog-form form input,
+textarea,
+select {
+  width: 100%;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  background: #f4f3f3;
+  border: 1px solid #c4c4c4;
+  border-radius: 8px;
+}
+
+.blog-form form textarea {
+  height: 200px;
+}
+
+.tecnologies h2{
+  font-size: 20px;
+}
+
+.formmyproject .checkbox {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+} 
+
+.formmyproject .checkbox div {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+#input-reactjs {
+  width: 20px;
+}
+
+#input-nodejs {
+  width: 20px;
+}
+
+.blog-form form .button-group {
+  text-align: right;
+}
+
+.blog-form form button {
+  margin-top: 50px;
+  padding: 8px 20px;
+  font-size: 17px;
+  background: #201f1f;
+  border-radius: 8px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+
+
+/* Blog list */
+
+
+.pembungkus {
+  display: flex;
+  text-align: right;
+  text-align: justify;
+
+}
+.pembungkus .inputdate input{
+  gap: 10px;
+  width: 98%;
+  background-color: #f8f7f7;
+}
+
+.pembungkus .input input {
+  background-color: rgb(241, 240, 240);
+  width: 110%;
+}
+.tech-left .framework label{
+  display: flex;
+}
+
+.tech-left .framework input{
+  width: 5%;
+}
+
+
+.uploadimg .input-blog-image-group img {
+ display: none;
+}
+
+
+.bottom-low button{
+  background-color: #0b0b0b;
+  color: white;
+  margin-left: 84%;
+  margin-top: 5%;
+  text-align: right;
+  border-radius: 5px;
+  height: 25px;
+
+}
+
+/*BORDER2*/
+
+.view {
+  box-shadow: 0px 0px 10px;
+  border-radius: 10px;
+  margin-top: 10%;
+  
+}
+
+/*-- blog detail--*/
+
+.view-img img {
+  margin-top: 5%;
+  width: 60%;
+  height: 20%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.view-img h6 {
+  margin-left: 5%;
+}
+
+.view-img p {
+  margin-left: 0%;
+  margin-right: 5%;
+  text-align: justify;
+}
+
+.iconss i {
+  margin-left: 5%;
+
+}
+
+.view-img button {
+  margin-left: 5%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+#c {
+  width: 10%;
+}

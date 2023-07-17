@@ -1,0 +1,137 @@
+<html>
+
+<head>
+  <title>Tugas Day 5</title>
+  <link rel="stylesheet" href="css/index.css" />
+  <script
+  src="https://kit.fontawesome.com/fa61d725ab.js"
+  crossorigin="anonymous"
+></script>
+</head>
+
+<body>
+  
+// NAVBAR
+  <nav>
+    <div class="navbar">
+      <img src="image/images.png" alt="logo-dumbways" class="nav-logo" />
+      <ul class="item-link">
+        <li><a href="https://task-d5-84sm.vercel.app/" class="active">HOME</a></li>
+        <li><a href="https://task-d5.vercel.app/" class="active">MY PROJECT</a></li>
+      </ul>
+      <div class="my-contact">
+        <a href="https://day3-contact.vercel.app/"><button type="button" class="btn-contact-nav">MY CONTACT</button></a>
+      </div>
+    </div>
+  </nav>
+
+//ISI
+
+  <div class="blog">
+    <div class="blog-form">
+      <div class="form-container">
+        <form onsubmit="addBlog(event)" class="formmyproject">
+
+          <!-- halaman Blog -->
+
+          <h1>Add Your Project</h1>
+          <div>
+            <label for="input-project-name">Project Name</label>
+            <input id="input-project-name">
+
+            <div class="pembungkus">
+
+            <div class="inputdate">
+              <label for="input-start-data">StarDate</label>
+              <input type="date" id="input-start-data" name="tanggal">
+            </div>
+
+            <div class="input">
+              <label for="input-end-data">EndDate</label>
+              <input type="date" id="input-end-data" name="tanggal">
+            </div>
+          </div>
+          <div clas="textarea">
+            <label for="input-description">description</label>
+            <textarea id="input-description" rows="7" cols="15"></textarea>
+            </div>
+
+            <div class="tecnologies">
+              <h2>Tecnologies</h2> 
+              <div class="checkbox">
+                <div class="checkbox1">
+
+                    <div>
+                        <input type="checkbox" id="input-reactjs">
+                        <label for="input-reactjs">React js</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="input-nodeJs" >
+                        <label for="input-jnodeJs">nodeJs</label>
+                    </div>
+
+                </div>
+
+                <div class="checkbox2">
+                    <div>
+                        <input type="checkbox" id="input-square">
+                        <label for="input-square">Square</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" id="input-vuejs">
+                        <label for="input-vuejs">VueSs</label>
+                    </div>
+
+                </div>
+            </div>
+
+          <div class="uploadimg">
+            <label>Upload Image</label>
+            <div class="input-blog-image-group">
+              <input type="file" id="input-image">
+                <img src="" alt="file"/>
+              </label>
+              <input type="file" id="input-image" hidden />
+            </div>
+          </div>
+          <div class="button-group">
+            <button>Post Blog</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <hr class="line" />
+    <div id="contents" class="blog-list">
+
+      <!-- halaman Detail -->
+     
+        <div class="view" id="view1">
+          <!-- <div class="view-img">
+                  <img src="image/Ronaldo.jpg" alt="" >
+                  <a href="#" id="1"></a>
+                  <h6>Im Belive God's Plan</h6> 
+                  <h6>durasi: 10 Menit😒</h6>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                  <div class="iconss">
+                    <i class="fa-brands fa-node"></i>
+                    <i class="fa-brands fa-react"></i>
+                    <i class="fa-brands fa-square-js"></i>
+                    <i class="fa-brands fa-vuejs"></i>
+                  </div>
+                  <div class="buttonGrup">
+                  <button id="a"><a href="#">detail</a> </button>
+                  <button id="b">Delete</button>
+            </div>
+            </div> -->
+
+
+ <!-- Menghubungkan html ke js -->
+ <div  id="helenbelajar">
+  <div class="button-group">
+    <button onclick="coba()">cobaaaa</button>
+  </div>
+  <script src="js/blog.js"></script>
+</body>
+
+</html>
